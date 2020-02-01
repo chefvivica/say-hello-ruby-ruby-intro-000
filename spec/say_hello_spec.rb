@@ -14,6 +14,6 @@ describe "say_hello" do
   end
 end
 def say_hello(stdout = "Ruby Programmer")
-  puts "Hello, #{stdout}!"
+  puts "Hello #{stdout}!"
 end
 say_hello
